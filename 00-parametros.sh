@@ -538,25 +538,29 @@ CREATE_TABLE_JAVAEE="CREATE TABLE contatos (
 #                     VARIÁVEIS UTILIZADAS NO SCRIPT: 11-D-openssl-tomcat.sh                 #
 #                     VARIÁVEIS UTILIZADAS NO SCRIPT: 11-E-openssl-mysql.sh                  #
 #=============================================================================================
-#
+# 11-A-openssl-ca.sh
 # Arquivos de configuração (conf) da Unidade Certificado Raiz Confiável do OpenSSL
 # 01. /etc/ssl/index.txt = arquivo de configuração da base de dados do OpenSSL
 # 02. /etc/ssl/index.txt.attr = arquivo de configuração dos atributos da base de dados do OpenSSL
 # 03. /etc/ssl/serial = arquivo de configuração da geração serial dos certificados
 # 04. /etc/ssl/ca.conf = arquivo de configuração de Unidade Certificadora Raiz Confiável da CA
 #
+# 11-B-openssl-apache.sh
 # Arquivos de configuração (conf) da Geração do Certificado do Apache2
 # 01. /etc/ssl/apache2.conf = arquivo de configuração do certificado do Apache2
 # 02. /etc/apache2/sites-available/default-ssl.conf = arquivo de configuração do HTTPS do Apache2
 #
+# 11-C-openssl-vsftpd.sh
 # Arquivos de configuração (conf) da Geração do Certificado do VSFTPd
 # 01. /etc/ssl/vsftpd.conf = arquivo de configuração do certificado do VSFTPd
 # 02. /etc/vsftpd.conf = arquivo de configuração do VSFTPd Server
 #
+# 11-D-openssl-tomcat.sh
 # Arquivos de configuração (conf) da Geração do Certificado do Tomcat9
 # 01. /etc/ssl/tomcat9.conf = arquivo de configuração do certificado do Tomcat9
 # 02. /etc/tomcat9/server.xml = arquivo de configuração do Tomcat9 Server
 #
+# 11-E-openssl-mysql.sh
 # Arquivos de configuração (conf) da Geração do Certificado do MySQL
 # 01. /etc/ssl/mysql.conf = arquivo de configuração do certificado do MySQL
 # 02. /etc/mysql/mysql.conf.d/mysqld.cnf = arquivo de configuração do MySQL Server
